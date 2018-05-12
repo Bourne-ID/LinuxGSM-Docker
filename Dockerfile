@@ -5,7 +5,7 @@
 #
 
 FROM ubuntu:16.04
-LABEL maintainer="LinuxGSM <me@Danielgibbs.co.uk>"
+LABEL maintainer="Bourne-ID <admin@h-r-l.co.uk> - Original By; LinuxGSM <me@Danielgibbs.co.uk>"
 
 ENV DEBIAN_FRONTEND noninteractive
 
