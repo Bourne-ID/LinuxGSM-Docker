@@ -53,7 +53,8 @@ RUN dpkg --add-architecture i386 && \
         util-linux \
         wget \
         xz-utils \
-        zlib1g:i386
+        zlib1g:i386 \
+     && rm -rf /var/lib/apt/lists/*
 
 ## lgsm.sh
 RUN wget https://linuxgsm.com/dl/linuxgsm.sh
